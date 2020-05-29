@@ -15,11 +15,7 @@ const year = {
     alias: 'y',
     desc: 'Año de suscripción'
 }
-const out = {
-    demand: true,
-    alias: 'o',
-    desc: 'Nombre del archivo JSON'
-}
+
 const argv = require('yargs')
     .command('publicar', 'Publicar estadistica', {
         file,
@@ -30,8 +26,8 @@ const argv = require('yargs')
     .command('guardar', 'Almacenar resultados de las estadísticas ', {
         file,
         country,
-        year,
-        out
+        year
+
     })
     .argv;
 
