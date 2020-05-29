@@ -4,6 +4,8 @@ const colors = require('colors');
 let comando = argv._[0];
 
 
+console.log(colors.rainbow(" \t Plataformas web"));
+console.log(colors.magenta(" Mario Suin"));
 
 
 switch (comando) {

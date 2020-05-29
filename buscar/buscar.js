@@ -51,12 +51,12 @@ async function guardarDB(path, cod, year) {
 
 
 async function consulta(path, cod, year) {
-    console.log(colors.bgYellow("+**********************************+"));
+    console.log(colors.yellow("+**********************************+"));
     console.log(colors.blue("+***********Examen 1.**************+"));
     let info = await getData(path);
     let consu = await getContry(info, cod, year);
     console.log(colors.green(consu));
-    console.log(colors.bgYellow("+**********************************+"));
+    console.log(colors.yellow("+**********************************+"));
 }
 module.exports = {
     consulta,

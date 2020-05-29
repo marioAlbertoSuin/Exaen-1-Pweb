@@ -1,4 +1,5 @@
 const file = {
+    default: '.datos.csv',
     demand: true,
     alias: 'f',
     desc: 'Path del archivo csv'
@@ -11,7 +12,7 @@ const country = {
 }
 
 const year = {
-    default: 2018,
+    default: 2016,
     alias: 'y',
     desc: 'Año de suscripción'
 }
